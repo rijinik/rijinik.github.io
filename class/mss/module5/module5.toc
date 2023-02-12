@@ -1,0 +1,10 @@
+\beamer@sectionintoc {1}{Software Quality}{3}{0}{1}
+\beamer@sectionintoc {2}{Software Quality Dilemma}{11}{0}{2}
+\beamer@sectionintoc {3}{Achieving Software Quality}{14}{0}{3}
+\beamer@sectionintoc {4}{Elements of Software Quality Assurance}{17}{0}{4}
+\beamer@sectionintoc {5}{SQA Tasks}{23}{0}{5}
+\beamer@sectionintoc {6}{Software Process Improvement (SPI)}{32}{0}{6}
+\beamer@sectionintoc {7}{CMMI process improvement framework}{42}{0}{7}
+\beamer@sectionintoc {8}{ISO 9001:2000 for Software}{46}{0}{8}
+\beamer@sectionintoc {9}{Cloud-based Software }{48}{0}{9}
+\beamer@sectionintoc {10}{Microservices Architecture}{61}{0}{10}

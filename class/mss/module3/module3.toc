@@ -1,0 +1,8 @@
+\beamer@sectionintoc {1}{Object-oriented design using the UML}{3}{0}{1}
+\beamer@sectionintoc {2}{Design Patterns}{17}{0}{2}
+\beamer@sectionintoc {3}{Implementation issues}{22}{0}{3}
+\beamer@sectionintoc {4}{Open source development}{32}{0}{4}
+\beamer@sectionintoc {5}{Review Techniques}{34}{0}{5}
+\beamer@sectionintoc {6}{Software testing strategies}{63}{0}{6}
+\beamer@sectionintoc {7}{DevOps and Code Management}{113}{0}{7}
+\beamer@sectionintoc {8}{Software Evolution}{140}{0}{8}

@@ -1,0 +1,11 @@
+\beamer@sectionintoc {1}{Functional and non-functional requirements}{3}{0}{1}
+\beamer@sectionintoc {2}{Requirements engineering processes}{14}{0}{2}
+\beamer@sectionintoc {3}{Requirements elicitation}{16}{0}{3}
+\beamer@sectionintoc {4}{Requirements validation}{24}{0}{4}
+\beamer@sectionintoc {5}{Requirements change}{27}{0}{5}
+\beamer@sectionintoc {6}{Traceability Matrix}{33}{0}{6}
+\beamer@sectionintoc {7}{Developing use cases}{40}{0}{7}
+\beamer@sectionintoc {8}{Personas, Scenarios and Stories ,Feature Identification}{54}{0}{8}
+\beamer@sectionintoc {9}{Design concepts}{83}{0}{9}
+\beamer@sectionintoc {10}{ARCHITECTURAL DESIGN}{112}{0}{10}
+\beamer@sectionintoc {11}{ Component level design }{144}{0}{11}

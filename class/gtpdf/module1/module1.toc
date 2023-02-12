@@ -1,0 +1,8 @@
+\beamer@sectionintoc {1}{Introduction to Graphs}{3}{0}{1}
+\beamer@sectionintoc {2}{Application of graphs}{8}{0}{2}
+\beamer@sectionintoc {3}{Incidence and Degree}{16}{0}{3}
+\beamer@sectionintoc {4}{Isolated vertex, Pendant vertex and NULL Graph}{27}{0}{4}
+\beamer@sectionintoc {5}{Isomorphism}{29}{0}{5}
+\beamer@sectionintoc {6}{Sub graphs}{35}{0}{6}
+\beamer@sectionintoc {7}{Walks, Paths and Circuits}{38}{0}{7}
+\beamer@sectionintoc {8}{Connected Graph,Disconnected Graph \& Components}{50}{0}{8}
