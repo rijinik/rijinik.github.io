@@ -833,24 +833,33 @@ $$\sum_{i=1}^{k}{\frac{n_i(n_i-1)}{2}}=\frac{1}{2}\sum_{i=1}^{k}{n^2}-\frac{1}{2
 \end{equation}
 squaring both sides(1)
 \begin{equation}
-	\sum_{i=1}^{k}{(n_i-1)^2}= (n-k)^2
+	\left[\sum_{i=1}^{k}{(n_i-1)}\right]^2= (n-k)^2
 \end{equation}
 rewrite(2)
 \begin{equation}
-	\sum_{i=1}^{k}{n^2}\leq n^2-(k-1)(2n-k)
+\sum_{i=1}^{k}{(n_i-1)^2}\leq (n-k)^2
 \end{equation}
 \end{frame}
-
+\begin{frame}{Connected Graph,Disconnected Graph \& Components}
+	\textbf{Proof cont...}
+		\begin{eqnarray}
+		\sum_{i=1}^{k}{(n_i^2-2n_i+1)}&\leq& n^2-2nk+k^2\\
+			\sum_{i=1}^{k}{n_i^2}{-2n+K}&\leq& n^2-2nk+k^2\\
+				\sum_{i=1}^{k}{n_i^2}&\leq& n^2-2nk+k^2{+2n-K}\\
+			\sum_{i=1}^{k}{n_i^2}&\leq& n^2-(k-1)(2n-k)
+	\end{eqnarray}
+\end{frame}
 \begin{frame}{Connected Graph,Disconnected Graph \& Components}
 	\textbf{Proof cont...}
 	\begin{itemize}
 		\item  therefor , the maximum number of edges in G is
 		\begin{small}
 			\begin{eqnarray*}
-				\sum_{i=1}^{k}{\frac{n_i(n_i-1)}{2}}&=&\frac{1}{2}\sum_{i=1}^{k}{n^2}-\frac{1}{2}\sum_{i=1}^{k}{n_i}\\
-				&=&\frac{1}{2}\sum_{i=1}^{k}{n^2}-\frac{n}{2}\\
+				\sum_{i=1}^{k}{\frac{n_i(n_i-1)}{2}}&=&\frac{1}{2}\sum_{i=1}^{k}{n_i^2}-\frac{1}{2}\sum_{i=1}^{k}{n_i}\\
+				&=&\frac{1}{2}\sum_{i=1}^{k}{n_i^2}-\frac{n}{2}\\
+			& &	Apply \ eq(7) in \ the\ above \ equation \ we \ get\\
 				&\leq&\frac{1}{2}[n^2-(k-1)(2n-k)]-\frac{n}{2}\\
-				&=&\frac{(n-k)(n-k+1)}{2}\\
+				&\leq&\frac{(n-k)(n-k+1)}{2}\\
 			\end{eqnarray*}
 		\end{small}
 	\end{itemize}

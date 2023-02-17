@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.14)  11 FEB 2023 22:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.14)  17 FEB 2023 21:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1412,6 +1412,8 @@ Package pdftex.def Info: img/m37.jpg  used on input line 749.
 
 ] [61
 
+] [62
+
 ]
 \tf@nav=\write6
 \openout6 = `module1.nav'.
@@ -1431,10 +1433,10 @@ Package rerunfilecheck Info: File `module1.out' has not changed.
 (rerunfilecheck)             Checksum: 609F1011483909FA8B9EA052A32F77F8;1417.
  ) 
 Here is how much of TeX's memory you used:
- 22888 strings out of 478619
- 451308 string characters out of 2844661
+ 22892 strings out of 478619
+ 451345 string characters out of 2844661
  681385 words of memory out of 3000000
- 40395 multiletter control sequences out of 15000+600000
+ 40397 multiletter control sequences out of 15000+600000
  480710 words of font info for 69 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,15n,122p,647b,683s stack positions out of 10000i,1000n,20000p,200000b,80000s
@@ -1450,9 +1452,9 @@ fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/HP/AppData/Local/Programs
 rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi8.pfb><C:/Users/HP/AppData/L
 ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/HP/App
 Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on module1.pdf (61 pages, 1908912 bytes).
+Output written on module1.pdf (62 pages, 1916290 bytes).
 PDF statistics:
- 1910 PDF objects out of 2073 (max. 8388607)
- 131 named destinations out of 1000 (max. 500000)
+ 1937 PDF objects out of 2073 (max. 8388607)
+ 133 named destinations out of 1000 (max. 500000)
  707 words of extra memory for PDF output out of 10000 (max. 10000000)
 
