@@ -1,0 +1,7 @@
+\beamer@sectionintoc {1}{Course Outcomes}{3}{0}{1}
+\beamer@sectionintoc {2}{Regular Expression (RE)}{4}{0}{2}
+\beamer@subsectionintoc {2}{1}{Equivalence of Finite Automata and Regular Expressions}{8}{0}{2}
+\beamer@sectionintoc {3}{Homomorphisms}{29}{0}{3}
+\beamer@sectionintoc {4}{Pumping Lemma for regular languages }{34}{0}{4}
+\beamer@sectionintoc {5}{Ultimate periodicity}{42}{0}{5}
+\beamer@sectionintoc {6}{Minimization of DFA}{53}{0}{6}

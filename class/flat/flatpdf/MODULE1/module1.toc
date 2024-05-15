@@ -1,0 +1,8 @@
+\beamer@sectionintoc {1}{Course Outcomes}{3}{0}{1}
+\beamer@sectionintoc {2}{Introduction to formal language theory}{4}{0}{2}
+\beamer@sectionintoc {3}{Finite Automata}{17}{0}{3}
+\beamer@sectionintoc {4}{Deterministic Finite Automata (DFA)}{25}{0}{4}
+\beamer@sectionintoc {5}{Nondeterministic finite automaton (NFA)}{38}{0}{5}
+\beamer@subsectionintoc {5}{1}{NFA with $\epsilon $ transitions ($\epsilon $-NFA)}{59}{0}{5}
+\beamer@subsectionintoc {5}{2}{Equivalence of NFA with and without epsilon transitions}{63}{0}{5}
+\beamer@sectionintoc {6}{Regular Grammar}{82}{0}{6}

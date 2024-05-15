@@ -1,0 +1,11 @@
+\beamer@sectionintoc {1}{Course Outcomes}{3}{0}{1}
+\beamer@sectionintoc {2}{Myhill-Nerode Relations (MNR)}{4}{0}{2}
+\beamer@subsectionintoc {2}{1}{Conversion of DFA to MNR}{7}{0}{2}
+\beamer@subsectionintoc {2}{2}{Conversion of MNR to DFA}{9}{0}{2}
+\beamer@sectionintoc {3}{Myhill-Nerode Theorem (MNT)}{11}{0}{3}
+\beamer@sectionintoc {4}{Context Free Grammars}{15}{0}{4}
+\beamer@subsectionintoc {4}{1}{Proving correctness of CFGs}{20}{0}{4}
+\beamer@sectionintoc {5}{Derivation Trees and ambiguity}{25}{0}{5}
+\beamer@subsectionintoc {5}{1}{Derivation Trees (or) Parse tree:}{29}{0}{5}
+\beamer@sectionintoc {6}{Chomsky Normal Form( CNF)}{44}{0}{6}
+\beamer@sectionintoc {7}{Greibach Normal Form(GNF)}{50}{0}{7}

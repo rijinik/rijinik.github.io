@@ -1,0 +1,13 @@
+\beamer@sectionintoc {1}{Course Outcomes}{3}{0}{1}
+\beamer@sectionintoc {2}{Context Sensitive Languages}{4}{0}{2}
+\beamer@sectionintoc {3}{Linear Bounded Automata (LBA)}{9}{0}{3}
+\beamer@sectionintoc {4}{Turing Machine (TM)}{15}{0}{4}
+\beamer@subsectionintoc {4}{1}{Turing Machines as Language Accepters}{24}{0}{4}
+\beamer@subsectionintoc {4}{2}{Turing Machine as Transducers}{29}{0}{4}
+\beamer@sectionintoc {5}{Robustness of the standard TM model}{39}{0}{5}
+\beamer@sectionintoc {6}{Multitape Turing Machines}{42}{0}{6}
+\beamer@sectionintoc {7}{Nondeterministic Turing machines}{52}{0}{7}
+\beamer@sectionintoc {8}{Universal Turing Machines}{59}{0}{8}
+\beamer@sectionintoc {9}{Halting Problem of TM}{67}{0}{9}
+\beamer@sectionintoc {10}{Recursive and Recursive Enumerable Language}{72}{0}{10}
+\beamer@sectionintoc {11}{Chomsky classification of formal languages}{85}{0}{11}

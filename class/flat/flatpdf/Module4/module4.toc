@@ -1,0 +1,8 @@
+\beamer@sectionintoc {1}{Course Outcomes}{3}{0}{1}
+\beamer@sectionintoc {2}{Nondeterministic Pushdown Automata (PDA)}{4}{0}{2}
+\beamer@sectionintoc {3}{Deterministic PDA (DPDA)}{26}{0}{3}
+\beamer@sectionintoc {4}{Equivalence of PDA's and CFL's }{30}{0}{4}
+\beamer@subsectionintoc {4}{1}{Conversion of CFG to PDA}{31}{0}{4}
+\beamer@subsectionintoc {4}{2}{Conversion of PDA to CGF}{35}{0}{4}
+\beamer@sectionintoc {5}{Pumping Lemma for context-free languages}{45}{0}{5}
+\beamer@sectionintoc {6}{Closure Properties of Context Free Languages}{47}{0}{6}
