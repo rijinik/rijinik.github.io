@@ -4,10 +4,10 @@ Welcome to the Engineering Computer Science Lecture Notes repository! This repos
 
 ## Table of Contents
 
-1. [Graph Theory (S4 CSE)](#graph-theory-s4-cse)
-2. [Management of Software System (S5 CSE)](#management-of-software-system-s5-cse)
-3. [Formal Languages and Automata Theory (S5 CSE)](#formal-languages-and-automata-theory-s5-cse)
-4. [Programming in Python (S6 CSE)](#programming-in-python-s6-cse)
+1. [Graph Theory (S4 CSE)](#class/gtpdf)
+2. [Management of Software System (S5 CSE)](#class/mss)
+3. [Formal Languages and Automata Theory (S5 CSE)](#class/flatpdf)
+4. [Programming in Python (S6 CSE)](#class/pypdf)
 
 ## Contributing
 
