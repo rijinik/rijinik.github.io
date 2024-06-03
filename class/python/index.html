@@ -788,9 +788,187 @@ pen.hideturtle()
 turtle.done()
 </code></pre>
 					</section>
-		
-		
 				</section>
+				<section data-transition="convex">
+					<section data-transition="convex">
+						<h1>Object-Oriented Programming Concepts</h1>
+						<p>A comprehensive overview with Python examples</p>
+					</section>
+		
+					<!-- Slide 2 -->
+					<section data-transition="convex">
+						<h2>Objects and Classes</h2>
+						<p>Objects are instances of classes, which are blueprints for creating objects.</p>
+						<pre><code class="python">
+class Car:
+	def __init__(self, brand, model):
+		self.brand = brand
+		self.model = model
+		
+# Creating an object
+my_car = Car("Toyota", "Camry")
+</code></pre>
+					</section>
+		
+					<!-- Slide 3 -->
+					<section data-transition="convex">
+						<h2>Methods</h2>
+						<p>Methods are functions defined within a class to perform operations on objects.</p>
+						<pre><code class="python">
+class Car:
+	def __init__(self, brand, model):
+		self.brand = brand
+		self.model = model
+		
+	def display_info(self):
+		print(f"Brand: {self.brand}, Model: {self.model}")
+		
+my_car = Car("Toyota", "Camry")
+my_car.display_info()
+</code></pre>
+					</section>
+		
+					<!-- Slide 4 -->
+					<section data-transition="convex">
+						<h2>Instance Variables</h2>
+						<p>Instance variables are unique to each instance of a class.</p>
+						<pre><code class="python">
+class Car:
+	def __init__(self, brand, model):
+		self.brand = brand
+		self.model = model
+		
+my_car = Car("Toyota", "Camry")
+print(my_car.brand)  # Output: Toyota
+</code></pre>
+					</section>
+		
+					<!-- Slide 5 -->
+					<section data-transition="convex">
+						<h2>Constructor</h2>
+						<p>Constructor initializes object state, Accessors retrieve object data, and Mutators modify object data.</p>
+						<pre><code class="python">
+class Car:
+	def __init__(self, brand, model):
+		self.brand = brand
+		self.model = model
+		
+	def get_brand(self):
+		return self.brand
+		
+	def set_brand(self, brand):
+		self.brand = brand
+		
+my_car = Car("Toyota", "Camry")
+print(my_car.get_brand())  # Output: Toyota
+my_car.set_brand("Honda")
+print(my_car.get_brand())  # Output: Honda
+</code></pre>
+					</section>
+		
+					<!-- Slide 6 -->
+					<section data-transition="convex">
+						<h2>Inheritance</h2>
+						<p>Inheritance allows a class to inherit attributes and methods from another class.</p>
+						<pre><code class="python">
+class Vehicle:
+	def __init__(self, brand, model):
+		self.brand = brand
+		self.model = model
+		
+class Car(Vehicle):
+	def __init__(self, brand, model, color):
+		super().__init__(brand, model)
+		self.color = color
+		
+my_car = Car("Toyota", "Camry", "Blue")
+print(my_car.brand)  # Output: Toyota
+print(my_car.color)  # Output: Blue
+</code></pre>
+</section>
+		
+					<!-- Slide 7 -->
+					<section data-transition="convex">
+						<h2>Polymorphism</h2>
+						<p>Polymorphism allows objects of different classes to be treated as objects of a common superclass.</p>
+						<pre><code class="python">
+class Animal:
+	def speak(self):
+		pass
+		
+class Dog(Animal):
+	def speak(self):
+		return "Woof!"
+		
+class Cat(Animal):
+	def speak(self):
+		return "Meow!"
+		
+def animal_sound(animal):
+	return animal.speak()
+		
+dog = Dog()
+cat = Cat()
+		
+print(animal_sound(dog))  # Output: Woof!
+print(animal_sound(cat))  # Output: Meow!
+</code></pre>
+					</section>
+		
+					<!-- Slide 8 -->
+					<section data-transition="convex">
+						<h2>Abstract Classes</h2>
+						<p>Abstract classes are classes that cannot be instantiated and are designed to be subclassed.</p>
+						<pre><code class="python">
+from abc import ABC, abstractmethod
+		
+class Shape(ABC):
+	@abstractmethod
+	def area(self):
+		pass
+		
+class Circle(Shape):
+	def __init__(self, radius):
+		self.radius = radius
+		
+	def area(self):
+		return 3.14 * self.radius ** 2
+		
+circle = Circle(5)
+print(circle.area())  # Output: 78.5
+</code></pre>
+					</section>
+		
+					<!-- Slide 9 -->
+					<section data-transition="convex">
+						<h2>Interfaces</h2>
+						<p>Interfaces define a set of methods that implementing classes must provide.</p>
+						<pre><code class="python">
+from abc import ABC, abstractmethod
+		
+class Vehicle(ABC):
+	@abstractmethod
+	def start(self):
+		pass
+		
+	@abstractmethod
+	def stop(self):
+		pass
+		
+class Car(Vehicle):
+	def start(self):
+		return "Car started"
+		
+	def stop(self):
+		return "Car stopped"
+		
+my_car = Car()
+print(my_car.start())  # Output: Car started
+print(my_car.stop())   # Output: Car stopped
+</code></pre>
+					</section>
+				</section>
+
 			</div>
 		</div>
 		<script src="dist/reveal.js"></script>
