@@ -1,0 +1,720 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Python Programming for Beginners</title>
+		
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/black.css">
+
+		<style>
+			.special-color { color: blue; }
+			.content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .left-content {
+            width: 100%;
+			font-size: 0.7em;
+            text-align: right;
+        }
+        .right-content {
+            width: 100%;
+            font-size: 0.9em;
+            text-align: left;
+        }
+		
+		</style>
+
+    <link rel="stylesheet" href="reveal.js/css/theme/black.css" id="theme">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/styles/monokai.min.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+		
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+		
+				<!-- Slide 1: Title -->
+				<section data-transition="convex">
+
+							<h1>INTRODUCTION TO PYTHON</h1>
+							<div> <p>An overview of Python programming language</p></div>
+						<div>
+							<p>By</p>
+							<p>Mr. Rijin I K</p>
+						</div>
+				</section>
+	
+				<!-- Slide 2: Introduction to Python -->
+				<section data-transition="convex">
+					<section data-transition="convex">
+						<h2>Introduction to Python</h2>
+					</section>
+					<section data-transition="convex">
+						<h2>Introduction to Python</h2>
+						<p>Python is a high-level, interpreted programming language known for its simplicity and readability.</p>
+						<ul>
+							<li><strong>Easy to Learn</strong> </li>
+							<li><strong>Widely Used</strong></li>
+							<li><strong>Extensive Libraries</strong> </li>
+							<li><strong>Community Support</strong> </li>
+						</ul>
+					</section>
+				</section>
+	
+				<!-- Slide 3: Python Identifiers, Variables, and Keywords -->
+				<section data-transition="convex">
+					<section data-transition="convex">
+						<h2>Identifiers, Variables, and Keywords</h2>
+					</section>
+					<section data-transition="convex">
+						<h2>Identifiers, Variables, and Keywords</h2>
+						<ul>
+							<li><strong>Identifiers</strong>: Names given to variables, functions, etc.</li>
+							<li><strong>Variables</strong>: Containers for storing data values</li>
+							<li><strong>Keywords</strong>: Reserved words in Python</li>
+						</ul>
+					</section>
+				</section>
+				<!-- Slide 4: Python Data Types -->
+
+				<section data-transition="convex">
+					<section data-transition="convex">
+						<h3>Data Types</h3>
+					</section>
+					<section data-transition="convex">
+						<h3>Data Types</h3>
+						<p>Common data types in Python:</p>
+						<ul>
+							<li>Integer: <code class="hljs">x = 5</code></li>
+							<li>Float: <code class="hljs">y = 3.14</code></li>
+							<li>String: <code class="hljs">z = "Hello"</code></li>
+							<li>Boolean: <code class="hljs">a = True</code></li>
+						</ul>
+					</section>
+				</section>
+				<!-- Slide 5: Expressions -->
+				<section data-transition="convex">
+					<section data-transition="convex">
+						<h2>Expressions</h2>
+						<p>Combinations of values and operators</p>
+					</section>
+						<section data-transition="convex">
+							<h2>Expressions</h2>
+<pre><code class="python">
+# Assignment
+a = 5
+print(a)  # Outputs 5			
+													
+# Example of simple addition
+sum_result = 10 + 5
+print(sum_result)  # Outputs 15
+													
+# Example of simple division
+div_result = 10 / 2
+print(div_result)  # Outputs 5.0
+</code></pre>
+						</section>
+				</section>
+				<!-- Slide 6: Types of Operators in Python -->
+				<section data-transition="convex">
+					<section data-transition="convex">
+						<h2>Operators in Python</h2>
+						<p>Operators in Python are special symbols or keywords that are used to perform operations on variables and values.</p>
+					</section>
+						<section data-transition="convex">
+							<h2>Arithmetic Operators</h2>
+							<p>Used to perform basic mathematical operations like addition, subtraction, multiplication, and division.</p>
+
+<pre><code class="python">
+x = 10
+y = 3
+	
+print(x + y)  # Addition: 13
+print(x - y)  # Subtraction: 7
+print(x * y)  # Multiplication: 30
+print(x / y)  # Division: 3.333...
+print(x % y)  # Modulus: 1
+print(x ** y)  # Exponentiation: 1000
+print(x // y)  # Floor Division: 3	
+</code></pre>
+						</section>
+						<section data-transition="convex">
+							<h2>Comparison Operators</h2>
+							<p>Used to compare two values. They return either True or False.</p>
+<pre><code class="python">
+x = 10
+y = 3
+	
+print(x == y)  # Equal to: False
+print(x != y)  # Not equal to: True
+print(x > y)   # Greater than: True
+print(x < y)   # Less than: False
+print(x >= y)  # Greater than or equal to: True
+print(x <= y)  # Less than or equal to: False	
+</code></pre>
+						</section>
+						<section data-transition="convex">
+							<h2>Logical Operators</h2>
+							<p>Used to combine conditional statements.</p>
+<pre><code class="python">
+x = True
+y = False
+	
+print(x and y)  # Logical AND: False
+print(x or y)   # Logical OR: True
+print(not x)    # Logical NOT: False	
+</code></pre>
+						</section>	
+						<section data-transition="convex">
+							<h2>Bitwise Operators</h2>
+							<p>Used to perform bit-level operations on integers.</p>
+<pre><code class="python">
+x = 10  # 1010 in binary
+y = 3   # 0011 in binary
+	
+print(x & y)  # Bitwise AND: 2 (0010 in binary)
+print(x | y)  # Bitwise OR: 11 (1011 in binary)
+print(x ^ y)  # Bitwise XOR: 9 (1001 in binary)
+print(~x)     # Bitwise NOT: -11 (inverts all bits)
+print(x << 2) # Bitwise left shift: 40 (101000 in binary)
+print(x >> 2) # Bitwise right shift: 2 (0010 in binary)
+</code></pre>
+						</section>	
+						<section data-transition="convex">
+							<h2>Assignment Operators</h2>
+							<p>Used to assign values to variables.</p>
+<pre><code class="python">
+x = 10  # Assignment: x is 10
+x += 3  # Add and assign: x is 13
+x -= 3  # Subtract and assign: x is 10
+x *= 3  # Multiply and assign: x is 30
+x /= 3  # Divide and assign: x is 10.0
+x %= 3  # Modulus and assign: x is 1.0
+x //= 3 # Floor divide and assign: x is 0.0
+x **= 3 # Exponentiate and assign: x is 0.0
+x &= 3  # Bitwise AND and assign
+x |= 3  # Bitwise OR and assign
+x ^= 3  # Bitwise XOR and assign
+x >>= 3 # Bitwise right shift and assign
+x <<= 3 # Bitwise left shift and assign
+</code></pre>
+						</section>	
+						<section data-transition="convex">
+							<h2>Special Operators</h2>
+							<ul>
+								<li><span class="special-color">is</span> and <span class="special-color">is not</span> are identity operators.</li>
+								<li> <span class="special-color">in</span> and <span class="special-color">not in</span> are membership operators.</li>
+							</ul>
+<pre><code class="python">
+x = [1, 2, 3]
+y = [1, 2, 3]
+z = x
+	
+print(x is z)       # True because z is the same object as x
+print(x is y)       # False because x and y are not the same object
+print(x == y)       # True because x and y have the same content
+	
+print(2 in x)       # True because 2 is in the list x
+print(4 not in x)   # True because 4 is not in the list x	
+</code></pre>
+						</section>	
+						<section data-transition="convex">
+						<h2>Example of Operator Precedence</h2>
+						<p>Operator precedence determines the order in which operations are performed. Here's an example</p>
+<pre><code class="python">
+result = 3 + 2 * 2  # Multiplication (*) is done before addition (+)
+print(result)  # Outputs 7	
+</code></pre>
+					</section>		
+
+				</section>
+				<!-- Slide 7: Comments in Python -->
+				<section data-transition="convex">
+					<section data-transition="convex">
+					<h2>Comments in Python</h2>
+						<p>Comments in Python is the inclusion of short descriptions along with the code to increase its readability.</p>
+						<ul>
+							<li> # symbol</li>
+							<li> Triple double or single quotes (”’ or ”’)</li>
+						</ul>
+					</section>
+					<section data-transition="convex">
+						<h3># symbol</h3>
+<pre><code class="python">
+#print("Hello, World!")
+print("Cheers, Mate!")							
+
+#This is a comment
+#written in
+#more than just one line
+print("Hello, World!")
+</code></pre>
+					</section>	
+					<section data-transition="convex">
+						<h3>Docstrings</h3>
+						<p>Python will ignore string literals that are not assigned to a variable, you can add a multiline string in your code, and place your comment inside it</p>
+<pre><code class="python">
+"""
+This is a comment
+written in
+more than just one line
+"""
+print("Hello, World!")
+</code></pre>
+					</section>	
+				</section>
+				<!-- Slide 8: Python input() Function -->
+				<section data-transition="convex">
+					<section data-transition="convex">
+						<h2>Python input() Function</h2>
+						<p>The input() function in Python is used to take user input from the console.</p>
+					</section>
+					<section data-transition="convex">
+						<h2>Reading a String</h2>
+						<p>By default, input() reads input as a string.</p>
+<pre><code class="python">
+# Reading a string
+string_input = input("Enter a string: ")
+
+print(string_input)
+</code></pre>
+					</section>
+					<section data-transition="convex">
+						<h2>Reading an Integer</h2>
+						<p>To read an integer from the user, you need to use the int() function to convert the input string to an integer.</p>
+<pre><code class="python">
+# Reading an integer
+integer_input = int(input("Enter an integer: "))
+
+print(integer_input)
+</code></pre>
+					</section>
+					<section data-transition="convex">
+						<h2>Reading a Float</h2>
+						<p>To read a floating-point number (float) from the user, you use the float() function to convert the input string.</p>
+<pre><code class="python">
+# Reading a float
+float_input = float(input("Enter a float: "))
+
+print(float_input)
+</code></pre>
+					</section>
+				</section>
+				<!-- Slide 9: Modules -->
+				<section data-transition="convex">
+					<section data-transition="convex">
+						<h3>Modules</h3>
+					</section>
+					<section data-transition="convex">
+						<h2>Modules</h2>
+						<ul>
+							<li>
+								Modules are files containing Python code that can be imported and used in other Python programs. 
+							</li>
+							<li>
+								A module can contain functions, classes, and variables.
+							</li>
+							<li>
+								You import a module using the import keyword, followed by the module name.
+							</li>
+						</ul>
+					</section>
+					<section data-transition="convex">
+						<h2>math Module</h2>
+<pre><code class="python">
+import math
+
+num = 16
+square_root = math.sqrt(num)
+print("Square root of", num, "is", square_root)  # Output: Square root of 16 is 4.0	
+</code></pre>
+<p>You can also import specific functions or variables from a module:</p>
+<pre><code class="python">
+from math import sqrt
+
+num = 25
+square_root = sqrt(num)
+print("Square root of", num, "is", square_root)  # Output: Square root of 25 is 5.0
+</code></pre>
+					</section>
+				</section>
+				</section>
+				<!-- Slide 10: Formatting Text for Output -->
+				<section data-transition="convex">
+					<section data-transition="convex">
+						<h3>Formatting Text for Output</h3>
+					</section>
+					<section data-transition="convex">
+						<h3>Formatting Text for Output</h3>
+						<ol>
+							<li>Using the % operator. </li>
+							<li>Using the {} (format) method.
+								<ul>
+									<li>
+										It’s generally recommended to use  {} format method. 
+									</li>
+								</ol>
+							</li>
+
+						</ul>
+					</section>
+					<section data-transition="convex">
+						<h3>Using % operator</h3>
+<pre><code class="python">
+name = "John"
+age = 25
+
+# Using % operator for string formatting
+print("My name is %s and I am %d years old." % (name, age))	
+</code></pre>
+					</section>
+					<section data-transition="convex">
+						<h3>Using {} (format) method</h3>
+<pre><code class="python">
+name = "John"
+age = 25
+
+	# Using {} format method
+print("My name is {} and I am {} years old.".format(name, age))	
+</code></pre>
+					</section>
+					<section data-transition="convex">
+						<h3>Using {} (format) method:Using f-string</h3>
+<pre><code class="python">
+name = "John"
+age = 25
+
+	# Using f-string
+print(f"My name is {name} and I am {age} years old.")	
+</code></pre>
+					</section>
+					<section data-transition="convex">
+						<h3>Using {} (format) method</h3>
+<pre><code class="python">
+name = "John"
+age = 25
+city = "New York"
+
+# Using indices with {} format method
+print("My name is {0}, I am {1} years old, and I live in {2}.".format(name, age, city))		
+</code></pre>	
+					</section>
+				</section>
+
+					<section data-transition="convex">
+						<h3>Indentation</h3>
+						<p>Python uses indentation to define blocks of code</p>
+						<pre><code class="python">
+	if True:
+		print("This is indented")
+						</code></pre>
+					</section>
+				</section>
+	
+				<!-- Slide 5: Python Program Flow Control -->
+				<section data-transition="convex">
+					<section>
+						<h2>Program Flow Control</h2>
+						<p>Decision making and loops</p>
+					</section>
+					<section data-transition="convex">
+						<h3>Decision Making</h3>
+						<pre><code class="python">
+	# if, if..else, elif
+	x = 10
+	if x > 0:
+		print("Positive")
+	elif x == 0:
+		print("Zero")
+	else:
+		print("Negative")
+						</code></pre>
+					</section>
+					<section data-transition="convex">
+						<h3>Loops</h3>
+						<pre><code class="python">
+	# for, while, for...else, while...else
+	for i in range(5):
+		print(i)
+	else:
+		print("Loop ended")
+	
+	count = 0
+	while count < 5:
+		print(count)
+		count += 1
+	else:
+		print("Loop ended")
+						</code></pre>
+					</section>
+					<section data-transition="convex">
+						<h3>Control Statements</h3>
+						<pre><code class="python">
+# pass, continue, break
+for letter in "Python":
+	if letter == 'h':
+		continue
+	print(letter)
+	
+for letter in "Python":
+	if letter == 'h':
+		break
+	print(letter)
+
+for letter in "Python":
+	if letter == 'h':
+		pass
+	print(letter)
+</code></pre>
+					</section>
+				</section>
+	
+				<!-- Slide 6: Strings and Lists -->
+				<section data-transition="convex">
+					<section data-transition="convex">
+						<h2>Strings and Lists</h2>
+						<p>Working with text and collections of items</p>
+					</section>
+					<section data-transition="convex">
+						<h3>Strings</h3>
+						<pre><code class="python">
+	# String traversal, slices, and comparison
+	text = "Hello, Python!"
+	print(text[0])       # H
+	print(text[0:5])     # Hello
+	print(text[-1])      # !
+	print(text == "Hello, Python!")  # True
+						</code></pre>
+					</section>
+					<section data-transition="convex">
+						<h3>The String Module</h3>
+						<p>Contains useful functions for string manipulation</p>
+						<pre><code class="python">
+	import string
+	print(string.ascii_letters) # abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ
+						</code></pre>
+					</section>
+					<section data-transition="convex">
+						<h3>Character Classification</h3>
+						<pre><code class="python">
+	# Character classification using string module
+	char = 'A'
+	print(char.isalpha())  # True
+	print(char.isdigit())  # False
+						</code></pre>
+					</section>
+					<section data-transition="convex">
+						<h3>Lists</h3>
+						<pre><code class="python">
+	# List operations and traversal
+	fruits = ["apple", "banana", "cherry"]
+	print(fruits[0])      # apple
+	for fruit in fruits:
+		print(fruit)
+	
+	fruits.append("orange")
+	print(fruits)         # ['apple', 'banana', 'cherry', 'orange']
+	
+	fruits.remove("banana")
+	print(fruits)         # ['apple', 'cherry', 'orange']
+						</code></pre>
+					</section>
+					<section data-transition="convex">
+						<h3>List Slices and Membership</h3>
+						<pre><code class="python">
+	# List slices and membership
+	numbers = [1, 2, 3, 4, 5]
+	print(numbers[1:3])   # [2, 3]
+	print(3 in numbers)   # True
+	print(6 in numbers)   # False
+						</code></pre>
+					</section>
+					<section data-transition="convex">
+						<h3>List Deletion and Matrices</h3>
+						<pre><code class="python">
+	# Deleting elements and working with matrices
+	del numbers[2]
+	print(numbers)  # [1, 2, 4, 5]
+	
+	matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+	for row in matrix:
+		for col in row:
+			print(col, end=" ")
+		print()
+						</code></pre>
+					</section>
+				</section>
+	
+				<!-- Slide 7: Tuples -->
+				<section data-transition="convex">
+					<section data-transition="convex">
+						<h2>Tuples</h2>
+						<p>Immutable collections of items</p>
+					</section>
+					<section data-transition="convex">
+						<h3>Mutability and Tuples</h3>
+						<pre><code class="python">
+	# Tuples are immutable
+	t = (1, 2, 3)
+	try:
+		t[0] = 4
+	except TypeError as e:
+		print(e)  # 'tuple' object does not support item assignment
+						</code></pre>
+					</section>
+					<section data-transition="convex">
+						<h3>Tuple Assignment</h3>
+						<pre><code class="python">
+	# Tuple assignment
+	a, b = 1, 2
+	print(a, b)  # 1 2
+						</code></pre>
+					</section>
+					<section data-transition="convex">
+						<h3>Tuples as Return Values</h3>
+						<pre><code class="python">
+	# Tuples as return values
+	def min_max(numbers):
+		return min(numbers), max(numbers)
+	
+	print(min_max([1, 2, 3, 4, 5]))  # (1, 5)
+						</code></pre>
+					</section>
+					<section data-transition="convex">
+						<h3>Tuple Operations</h3>
+						<pre><code class="python">
+	# Tuple operations
+	t1 = (1, 2, 3)
+	t2 = (4, 5, 6)
+	t3 = t1 + t2
+	print(t3)  # (1, 2, 3, 4, 5, 6)
+						</code></pre>
+					</section>
+				</section>
+	
+				<!-- Slide 8: Dictionaries -->
+				<section data-transition="convex">
+					<section data-transition="convex">
+						<h2>Dictionaries</h2>
+					<p>Key-value pairs for fast lookups</p>
+					</section>
+					<section data-transition="convex">
+					<h2>Dictionaries</h2>
+					<p>Key-value pairs for fast lookups</p>
+					<pre><code class="python">
+	# Dictionary operations and methods
+	person = {
+		"name": "Alice",
+		"age": 30,
+		"city": "New York"
+	}
+	print(person["name"])  # Alice
+	
+	person["email"] = "alice@example.com"
+	print(person)
+	
+	del person["age"]
+	print(person)
+						</code></pre>
+					</section>
+				</section>
+	
+				<!-- Slide 9: Functions, Modules, and Packages -->
+				<section data-transition="convex">
+					<section data-transition="convex">
+						<h2>Functions, Modules, and Packages</h2>
+						<p>Creating reusable code</p>
+					</section>
+					<section data-transition="convex">
+						<h3>Function Definition</h3>
+						<pre><code class="python">
+	# Function definition and calling
+	def greet(name):
+		return f"Hello, {name}!"
+	
+	print(greet("Alice"))
+						</code></pre>
+					</section>
+					<section data-transition="convex">
+						<h3>Parameters and Arguments</h3>
+						<pre><code class="python">
+	# Parameters and arguments
+	def add(a, b):
+		return a + b
+	
+	print(add(2, 3))  # 5
+						</code></pre>
+					</section>
+					<section data-transition="convex">
+						<h3>Lambda Functions</h3>
+						<pre><code class="python">
+	# Lambda functions
+	add = lambda x, y: x + y
+	print(add(2, 3))  # 5
+						</code></pre>
+					</section>
+					<section data-transition="convex">
+						<h3>Recursion</h3>
+						<pre><code class="python">
+	# Recursion
+	def factorial(n):
+		if n == 0:
+			return 1
+		else:
+			return n * factorial(n - 1)
+	
+	print(factorial(5))  # 120
+						</code></pre>
+					</section>
+					<section data-transition="convex">
+						<h3>Modules and Packages</h3>
+						<pre><code class="python">
+	# Importing modules and creating packages
+	import math
+	print(math.sqrt(16))  # 4.0
+	
+	# Creating a module
+	# Save this as mymodule.py
+	def greet(name):
+		return f"Hello, {name}!"
+	
+	# Importing from a module
+	from mymodule import greet
+	print(greet("Alice"))
+	
+	# Creating a package
+	# mypackage/__init__.py
+	# mypackage/mymodule.py
+	# Importing from a package
+	from mypackage.mymodule import greet
+	print(greet("Alice"))
+						</code></pre>
+					</section>
+				</section>
+			</div>
+		</div>
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
