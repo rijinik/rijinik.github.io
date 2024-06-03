@@ -702,6 +702,95 @@ print(new_tuple)  # Output: (4, 2, 3)
 						</code></pre>
 					</section>
 				</section>
+			</section>
+				<section data-transition="convex">
+					<section data-transition="convex">
+						<h1>Graphics with Turtle</h1>
+						<p>Exploring Turtle Graphics </p>
+					</section>
+					<section data-transition="convex">
+						<h2>Turtle Graphics</h2>
+						<p>Turtle graphics is a fun way to introduce programming concepts, allowing you to draw shapes and
+							patterns on the screen using a virtual "turtle".</p>
+					</section>
+		
+					<section data-transition="convex">
+						<h2>Importing the turtle library</h2>
+						<pre><code class="python">
+import turtle
+</code></pre>
+						
+					</section>
+		
+					<!-- Slide 4 -->
+					<section data-transition="convex">
+						<h2>Creating a Turtle Object</h2>
+						<p>You can import specific objects or classes from the turtle module.</p>
+						<pre><code class="python">
+from turtle import Turtle
+		
+t = Turtle()
+</code></pre>
+						
+					</section>
+		
+					<!-- Slide 5 -->
+					<section data-transition="convex">
+						<h2>Basic Turtle Graphics Attributes</h2>
+						<p>Some common attributes include:</p>
+						<pre><code class="python">
+t.width(2) # For bolder lines
+t.left(90) # Turn to face north
+t.forward(30) # Draw a vertical line in black
+t.up() # Prepare to move without drawing
+t.setheading(0) # Turn to face east
+t.pencolor("red")
+t.down() # Prepare to draw
+t.hideturtle() # Make the turtle invisible
+</code></pre>
+					</section>
+		
+					<!-- Slide 6 -->
+					<section data-transition="convex">
+						<h2>Drawing Shapes with Turtle</h2>
+						<p>Here's an example of drawing a square:</p>
+						<pre><code class="python">
+import turtle
+
+# Create a turtle object
+t = turtle.Turtle()
+							
+# Draw a square
+for _ in range(4):
+	t.forward(100)  # Move the turtle forward by 100 units
+	t.right(90)     # Turn the turtle right by 90 degrees
+							
+# Keep the window open until closed by the user
+turtle.done()
+</code></pre>
+					</section>
+
+		
+					<!-- Slide 8 -->
+					<section data-transition="convex">
+						<h2>Drawing Two-Dimensional Shapes</h2>
+					
+						<p>Here's an example of drawing a filled red circle:</p>
+						<pre><code class="python">
+import turtle
+		
+pen = turtle.Turtle()
+pen.fillcolor("red")
+pen.begin_fill()
+pen.circle(100)
+pen.end_fill()
+pen.hideturtle()
+turtle.done()
+</code></pre>
+					</section>
+		
+		
+				</section>
 			</div>
 		</div>
 		<script src="dist/reveal.js"></script>
