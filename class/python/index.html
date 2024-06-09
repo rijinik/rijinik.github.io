@@ -682,7 +682,71 @@ print(new_tuple)  # Output: (4, 2, 3)
 						</code></pre>
 					</section>
 				</section>
-	
+				<section data-transition="convex">
+					<section data-transition="convex">
+						<h2>Sets</h2>
+						<p>Unordered collections of unique elements</p>
+					</section>
+					<section data-transition="convex">
+						<h3>Creating Sets</h3>
+						<pre><code class="python">
+# Creating a set
+my_set = {1, 2, 3, 4, 5}
+print(my_set)  # Output: {1, 2, 3, 4, 5}
+				
+# Sets can also be created using the set() constructor
+another_set = set([1, 2, 2, 3, 4])
+print(another_set)  # Output: {1, 2, 3, 4}
+</code></pre>
+					</section>
+					<section data-transition="convex">
+						<h3>Operations on Sets</h3>
+						<pre><code class="python">
+# Adding elements to a set
+my_set.add(6)
+print(my_set)  # Output: {1, 2, 3, 4, 5, 6}
+				
+# Removing elements from a set
+my_set.remove(3)
+print(my_set)  # Output: {1, 2, 4, 5, 6}
+				
+# Set union
+set1 = {1, 2, 3}
+set2 = {3, 4, 5}
+union_set = set1 | set2
+print(union_set)  # Output: {1, 2, 3, 4, 5}
+				
+# Set intersection
+intersection_set = set1 & set2
+print(intersection_set)  # Output: {3}
+</code></pre>
+					</section>
+					<section data-transition="convex">
+						<h3>Set Methods</h3>
+						<p>Sets have several useful methods for manipulation</p>
+						<pre><code class="python">
+# Example of some set methods
+my_set.add(7)         # Adds element to the set
+my_set.remove(2)      # Removes element from the set
+my_set.update({8, 9}) # Adds multiple elements to the set
+print(my_set)         # Output: {1, 4, 5, 6, 7, 8, 9}
+</code></pre>
+					</section>
+					<section data-transition="convex">
+						<h3>Set Operations</h3>
+						<p>Common set operations such as difference and symmetric difference</p>
+						<pre><code class="python">
+# Set difference
+diff_set = set1 - set2
+print(diff_set)  # Output: {1, 2}
+				
+# Symmetric difference
+symmetric_diff_set = set1 ^ set2
+print(symmetric_diff_set)  # Output: {1, 2, 4, 5}
+</code></pre>
+					</section>
+				</section>
+				
 				<!-- Slide 8: Dictionaries -->
 				<section data-transition="convex">
 					<section data-transition="convex">
@@ -693,20 +757,20 @@ print(new_tuple)  # Output: (4, 2, 3)
 					<h2>Dictionaries</h2>
 					<p>Key-value pairs for fast lookups</p>
 					<pre><code class="python">
-	# Dictionary operations and methods
-	person = {
-		"name": "Alice",
-		"age": 30,
-		"city": "New York"
-	}
-	print(person["name"])  # Alice
+# Dictionary operations and methods
+person = {
+	"name": "Alice",
+	"age": 30,
+	"city": "New York"
+}
+print(person["name"])  # Alice
 	
-	person["email"] = "alice@example.com"
-	print(person)
+person["email"] = "alice@example.com"
+print(person)
 	
-	del person["age"]
-	print(person)
-						</code></pre>
+del person["age"]
+print(person)
+</code></pre>
 					</section>
 				</section>
 	
