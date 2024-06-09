@@ -514,8 +514,8 @@ for letter in "Python":
 				<!-- Slide 6: Strings and Lists -->
 				<section data-transition="convex">
 					<section data-transition="convex">
-						<h2>Strings and Lists</h2>
-						<p>Working with text and collections of items</p>
+						<h2>Strings</h2>
+						<p>Sequences of characters, enclosed within quotes</p>
 					</section>
 					<section data-transition="convex">
 						<h3>Strings</h3>
@@ -527,6 +527,46 @@ for letter in "Python":
 	print(text[-1])      # !
 	print(text == "Hello, Python!")  # True
 						</code></pre>
+					</section>
+					<section data-transition="convex">
+						<h3>The String Module</h3>
+						<pre><code class="python">
+# Define a string with leading and trailing whitespaces
+my_string = "   Hello, World!   "
+							
+# Print the length of the string
+print("Length of string:", len(my_string))
+							
+# Convert the string to uppercase and print
+print("Uppercase:", my_string.upper())
+							
+# Convert the string to lowercase and print
+print("Lowercase:", my_string.lower())
+							
+# Capitalize the first character of the string and print
+print("Capitalized:", my_string.capitalize())
+							
+# Count the number of occurrences of 'l' in the string and print
+print("Count of 'l':", my_string.count('l'))
+							
+# Find the index of the substring 'World' in the string and print
+print("Index of 'World':", my_string.find('World'))
+							
+# Replace 'Hello' with 'Hi' in the string and print
+print("Replaced:", my_string.replace('Hello', 'Hi'))
+							
+# Split the string by ',' and print the result as a list
+print("Split:", my_string.split(','))
+							
+# Remove leading and trailing whitespaces from the string and print
+print("Stripped:", my_string.strip())
+							
+# Check if the string starts with 'Hello' and print the result
+print("Starts with 'Hello':", my_string.startswith('Hello'))
+							
+# Check if the string ends with 'World!' and print the result
+print("Ends with 'World!':", my_string.endswith('World!'))
+</code></pre>
 					</section>
 					<section data-transition="convex">
 						<h3>The String Module</h3>
@@ -545,6 +585,12 @@ for letter in "Python":
 	print(char.isdigit())  # False
 						</code></pre>
 					</section>
+				</section>
+					<section data-transition="convex">	
+						<section data-transition="convex">	
+							<h3>Lists</h3>	
+						<p>Ordered, mutable (changeable), and can contain elements of different data types. </p>	
+						</section>			
 					<section data-transition="convex">
 						<h3>Lists</h3>
 						<pre><code class="python">
@@ -559,7 +605,7 @@ for letter in "Python":
 	
 	fruits.remove("banana")
 	print(fruits)         # ['apple', 'cherry', 'orange']
-						</code></pre>
+	</code></pre>
 					</section>
 					<section data-transition="convex">
 						<h3>List Slices and Membership</h3>
@@ -569,7 +615,7 @@ for letter in "Python":
 	print(numbers[1:3])   # [2, 3]
 	print(3 in numbers)   # True
 	print(6 in numbers)   # False
-						</code></pre>
+	</code></pre>
 					</section>
 					<section data-transition="convex">
 						<h3>List Deletion and Matrices</h3>
@@ -583,7 +629,7 @@ for letter in "Python":
 		for col in row:
 			print(col, end=" ")
 		print()
-						</code></pre>
+</code></pre>
 					</section>
 				</section>
 	
@@ -605,7 +651,7 @@ my_tuple[0] = 4  # This will raise an error because tuples are immutable
 my_tuple = (1, 2, 3)
 new_tuple = (4,) + my_tuple[1:]  # Creates a new tuple with the first element changed to 4
 print(new_tuple)  # Output: (4, 2, 3)
-					</code></pre>
+</code></pre>
 					</section>
 					<section data-transition="convex">
 						<h3>Tuple Assignment</h3>
@@ -613,7 +659,7 @@ print(new_tuple)  # Output: (4, 2, 3)
 	# Tuple assignment
 	a, b = 1, 2
 	print(a, b)  # 1 2
-						</code></pre>
+</code></pre>
 					</section>
 					<section data-transition="convex">
 						<h3>Tuples as Return Values</h3>
