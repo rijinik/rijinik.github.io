@@ -1112,7 +1112,64 @@ print(my_car.stop())   # Output: Car stopped
 </code></pre>
 					</section>
 				</section>
-
+				<section data-transition="convex">
+					<section data-transition="convex">
+						<h2>File Handling in Python</h2>
+					</section>
+					<section data-transition="convex">
+						<h3>Opening a File</h3>
+						<pre><code class="python">
+file = open('example.txt', 'r')
+</code></pre>
+					</section>
+					<section data-transition="convex">
+						<h3>Reading from a File</h3>
+						<pre><code class="python">
+content = file.read()
+lines = file.readlines()
+line = file.readline()
+</code></pre>
+					</section>
+					<section data-transition="convex">
+						<h3>Writing to a File</h3>
+						<pre><code class="python">
+file = open('example.txt', 'w')
+file.write("This is some text.")
+</code></pre>
+					</section>
+					<section data-transition="convex">
+						<h3>Appending to a File</h3>
+						<pre><code class="python">
+file = open('example.txt', 'a')
+file.write("This is some additional text.")
+</code></pre>
+					</section>
+					<section data-transition="convex">
+						<h3>Closing a File</h3>
+						<pre><code class="python">
+file.close()
+</code></pre>
+					</section>
+					<section data-transition="convex">
+						<h3>Using "with" Statement</h3>
+						<p>Automatically handle opening and closing of files in a single line</p>
+						<pre><code class="python">
+with open('example.txt', 'r') as file:
+	content = file.read()
+	print(content)
+</code></pre>
+					</section>
+					<section data-transition="convex">
+						<h3>File Modes</h3>
+					<ul>
+						<li>'r' for reading</li>
+						<li>'w' for writing</li>
+						<li>'a' for appending</li>
+						<li>'b' for binary mode</li>
+						<li>'t' for text mode</li>
+					</ul>
+					</section>
+				</section>				
 			</div>
 		</div>
 		<script src="dist/reveal.js"></script>
