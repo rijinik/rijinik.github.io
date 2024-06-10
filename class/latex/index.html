@@ -1,0 +1,1101 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+
+	<title>Latex presentation</title>
+
+	<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+	<meta name="author" content="Hakim El Hattab">
+
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="libs/reveal.js/4.1.3/reset.css">
+	<link rel="stylesheet" href="libs/reveal.js/4.1.3/reveal.css">
+
+	
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+	  <!-- highlight Theme -->
+  	
+	  <link rel="stylesheet" href="libs/highlight.js/11.3.1/styles/monokai.min.css">
+	
+	
+		
+	<link rel="stylesheet" href="libs/reveal.js/4.1.3/plugin/chalkboard/style.css">
+	
+	
+	
+		<link rel="stylesheet" href="libs/reveal.js/4.1.3/plugin/customcontrols/style.css">
+	
+	<link rel="stylesheet" href="libs/styles/tasklist.css">
+
+
+
+  <!-- Revealjs Theme -->
+  
+  	<link rel="stylesheet" href="libs/reveal.js/4.1.3/theme/black.css" id="theme">
+  
+    <style>
+      /* Reduce font size for <ul> lists */
+      ul {
+          font-size: 30px; /* Adjust the font size as needed */
+          line-height: 1.5; /* Adjust the line height as needed */
+      }
+  </style>
+
+
+  <!-- Revealjs Theme -->
+  
+
+ 
+</head>
+
+<body>
+  
+
+
+  <div class="reveal">
+
+    <!-- Any section element inside of this container is displayed as a slide -->
+    <div class="slides">
+
+      <section data-transition="convex">
+
+        <h3>Unlock the Power of Precision Typography
+          </h3>
+        <center><h5 style="max-width: 90%;">A Brief Introduction to \(LaTeX\)</h5></center>
+        <br>
+        <h6>By</h6>
+        <h5><code>Mr.Rijin I K</code></h5>
+
+        <br>
+        <p>
+          <small> rijinik@vjec.ac.in  </small>
+        </p>
+      </section>
+      <section data-transition="convex">
+          <section data-transition="convex">
+            <h3>Introduction</h3>
+          </section>
+          <!-- Slide 1: Introduction -->
+          <section data-transition="convex">
+              <h3>Introduction</h3>
+              <ul>
+        
+              <li>LaTeX: Typesetting system for scientific and mathematical documents.</li>
+              <li>Enables authors to typeset and print with top typographical quality.</li>
+              <li>Pronounced "Lay-tech"; uses TeX formatter as its engine.</li>
+              <li>TeX: Program by Donald Knuth for typesetting text and formulas.</li>
+            </ul>
+          </section>
+
+          <!-- Slide 2: Why LaTeX? -->
+          <section data-transition="convex">
+              <h3>Why LaTeX?</h3>
+              <ul>
+                  <li>Easy to use, especially for typing mathematical formulae</li>
+                  <li>Portability across Windows, Unix, and Mac operating systems</li>
+                  <li>Stability and interchangeability</li>
+              </ul>
+          </section>
+
+            <!-- Slide 3: Why LaTeX? (continued) -->
+            <section data-transition="convex">
+                <h3>Why LaTeX? (continued)</h3>
+                <ul>
+                    <li>High-quality output</li>
+                    <li>Most journals have their LaTeX styles</li>
+                    <li>You may be compelled to use it, as it's widely adopted</li>
+                </ul>
+            </section>
+
+            <!-- Slide 4: Why LaTeX? (continued) -->
+          <section data-transition="convex">
+              <h3>Why LaTeX? (continued)</h3>
+                <ul>
+                      <li>Documentation and forums provide ample support</li>
+                      <li>Universally accepted among researchers</li>
+                      <li>Error finding and troubleshooting are not difficult</li>
+                  </ul>
+            </section>
+      </section>
+
+      <section data-transition="convex">
+        <!-- Slide 1: Title -->
+        <section data-transition="convex">
+          <h3>Basic Structure of LaTeX Document</h3>
+      </section>
+
+      <!-- Slide 2: LaTeX Code -->
+      <section data-transition="convex">
+        <h4>LaTeX Code</h4>
+        <pre><code class="language-latex">
+\documentclass[12pt]{report} 
+
+\usepackage{color} 
+\usepackage{graphicx} 
+
+\begin{document}
+
+
+
+%  Document content goes here
+
+
+\end{document}
+        </code></pre>
+    </section>
+    <section data-transition="convex">
+      <h3>LaTeX Command Syntax</h3>
+    <ul>
+      <li>Commands in LaTeX start with a backslash (\).</li>
+      <li>Commands can have arguments enclosed in curly braces {} or square brackets [].</li>
+    </ul>
+    </section>  
+    <section data-transition="convex">
+      <h4>Title/Author Information</h4>
+      <pre><code class="language-latex">
+\begin{document}
+
+\title{A Very Simple Introduction to LaTeX}
+
+\author{names}
+
+\thanks{AMS UCSC}
+
+\maketitle
+
+
+
+\end{document}
+      </code></pre>
+  </section>
+ <!-- Slide 2: Formatting Examples -->
+  <section data-transition="convex">
+      <h4>Formatting Examples</h4>
+        <pre><code class="language-latex">
+\begin{document}
+
+
+\textbf{Bold Text}          
+
+\textit{Italic Text}
+              
+\underline{Underlined Text}   
+
+line1\\ %New Line
+line2
+        
+\end{document}
+        </code></pre>
+  </section>
+      
+
+</section>
+<section data-transition="convex">
+  <section data-transition="convex">
+    <h3>List Examples</h>
+  </section>
+<section data-transition="convex">
+<h4>Itemize (Bulleted List)</h4>
+<pre><code class="language-latex">
+\begin{document}
+
+\begin{itemize}
+  \item Item 1
+  \item Item 2
+  \item Item 3
+\end{itemize} 
+
+\end{document}              
+</code></pre>
+</section>
+<section data-transition="convex">
+  <h4>Enumerate (Numbered List)</h4>
+  <pre><code class="language-latex">
+\begin{document}
+
+\begin{enumerate}
+  \item First item
+  \item Second item
+  \item Third item
+\end{enumerate} 
+
+\end{document}              
+  </code></pre>
+</section>
+
+</section>  
+
+<section data-transition="convex"> 
+  <section data-transition="convex"> 
+<h3>Text Alignment</h3>
+</section>
+<section data-transition="convex">
+  <h3>Text Alignment Examples</h3>
+  <pre><code class="language-latex">
+\begin{document}
+
+\begin{center}
+This text is centered.
+\end{center}
+
+\begin{flushright}
+This text is right-aligned.
+\end{flushright}
+
+\begin{flushleft}
+This text is left-aligned.
+\end{flushleft}
+
+\end{document}              
+  </code></pre>
+</section>
+
+</section>
+<section data-transition="convex"> 
+  <section data-transition="convex"> 
+  <h3>Mathematical symbols in LaTeX</h3>
+  </section>
+  <section data-transition="convex">
+    <h3>Math Mode in LaTeX</h3>
+    <p>Math mode in LaTeX allows you to include mathematical expressions and equations in your document.</p>
+</section>
+
+<section data-transition="convex">
+    <h3>Inline Math Mode: <pre><code>$...$</code></pre></h3>
+    <p>In inline math mode, you can enclose mathematical expressions within dollar signs ($). For example:</p>
+    <pre><code class="language-latex">The quadratic formula is $x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$.</code></pre>
+    <aside class="notes">
+        <p>Use inline math mode for short mathematical expressions within text paragraphs.</p>
+    </aside>
+</section>
+
+<section data-transition="convex">
+    <h3>Display Math Mode </h3>
+    <p>In display math mode, you can enclose mathematical expressions within <pre><code >\(...\) or \[...\]</code></pre> For example:</p>
+    <pre><code class="language-latex">\[
+    \int_{0}^{\infty} e^{-x^2} \, dx = \frac{\sqrt{\pi}}{2}
+\]</code></pre>
+    <aside class="notes">
+        <p>Use display math mode for standalone mathematical expressions or equations that should be displayed separately from the surrounding text.</p>
+    </aside>
+</section>
+
+  <section data-transition="convex">
+    <h3>Superscript</h3>
+    <pre><code class="language-latex">$x^2$</code></pre>
+</section>
+
+<section data-transition="convex">
+    <h3>Subscript</h3>
+    <pre><code class="language-latex">$x_1$</code></pre>
+</section>
+
+<section data-transition="convex">
+    <h3>Fraction</h3>
+    <pre><code class="language-latex">$ \frac{a}{b} $</code></pre>
+</section>
+
+<section data-transition="convex">
+    <h3>Square Root</h3>
+    <pre><code class="language-latex">$ \sqrt{2} $</code></pre>
+</section>
+
+<section data-transition="convex">
+    <h3>Summation</h3>
+    <pre><code class="language-latex">$ \sum_{i=1}^{n} i $</code></pre>
+</section>
+<section data-transition="convex">
+  <h3>Product</h3>
+  <pre><code class="language-latex">$ \prod_{i=1}^{n} x_i $</code></pre>
+</section>
+
+
+<section data-transition="convex">
+    <h3>Integral</h3>
+    <pre><code class="language-latex">$ \int_{a}^{b} f(x) \, dx $</code></pre>
+</section>
+
+<section data-transition="convex">
+    <h3>Greek Letters</h3>
+    <pre><code class="language-latex">$ \alpha + \beta = \gamma $</code></pre>
+</section>
+
+<section data-transition="convex">
+    <h3>Matrix</h3>
+    <pre><code class="language-latex">
+    \begin{bmatrix} 
+      1 & 2 \\ 
+      3 & 4 
+    \end{bmatrix} </code></pre>
+</section>
+<section data-transition="convex">
+  <h3>Mathematical Symbols</h3>
+  <div class="symbols">
+      <div>
+          <h4>Chi</h4>
+          <pre><code class="language-latex">$ \chi $</code></pre>
+      </div>
+      <div>
+          <h5>Phi</h5>
+          <pre><code class="language-latex">$ \phi $</code></pre>
+      </div>
+      <div>
+          <h5>Pi</h5>
+          <pre><code class="language-latex">$ \pi $</code></pre>
+      </div>
+      <div>
+          <h5>Delta</h5>
+          <pre><code class="language-latex">$ \delta $</code></pre>
+      </div>
+  </div>
+</section>
+</section>
+<section data-transition="convex">
+  <section data-transition="convex">
+    <h3>Arrow Symbols in LaTeX</h3>
+  </section>
+  <section data-transition="convex">
+    <h2>Left Arrow</h2>
+    <pre><code class="language-latex">\leftarrow</code></pre>
+    <p>Example: \(a \leftarrow b\)</p>
+</section>
+
+<section data-transition="convex">
+    <h2>Right Arrow</h2>
+    <pre><code class="language-latex">\rightarrow</code></pre>
+    <p>Example: \(a \rightarrow b\)</p>
+</section>
+
+<section data-transition="convex">
+    <h2>Double Left Arrow</h2>
+    <pre><code class="language-latex">\Leftarrow</code></pre>
+    <p>Example: \(a \Leftarrow b\)</p>
+</section>
+
+<section data-transition="convex">
+    <h2>Double Right Arrow</h2>
+    <pre><code class="language-latex">\Rightarrow</code></pre>
+    <p>Example: \(a \Rightarrow b\)</p>
+</section>
+
+<section data-transition="convex">
+    <h2>Up Arrow</h2>
+    <pre><code class="language-latex">\uparrow</code></pre>
+    <p>Example: \(a \uparrow b\)</p>
+</section>
+
+<section data-transition="convex">
+    <h2>Down Arrow</h2>
+    <pre><code class="language-latex">\downarrow</code></pre>
+    <p>Example: \(a \downarrow b\)</p>
+</section>
+
+</section>
+
+
+
+
+<section data-transition="convex">
+  <section data-transition="convex">
+    <h3>Mathematical formulas</h3>
+  </section>
+  <section data-transition="convex">
+    <h3>Equation</h3>
+    <pre><code class="language-latex">\begin{equation}
+    f(x) = ax^2 + bx + c
+\end{equation}</code></pre>
+</section>
+
+<section data-transition="convex">
+    <h3>Equation* (Unnumbered)</h3>
+    <pre><code class="language-latex">\begin{equation*}
+    f(x) = ax^2 + bx + c
+\end{equation*}</code></pre>
+</section>
+
+<section data-transition="convex">
+    <h3>Align</h3>
+    <pre><code class="language-latex">\begin{align}
+    f(x) &= ax^2 + bx + c \\
+    g(x) &= dx^2 + ex + f
+\end{align}</code></pre>
+</section>
+
+<section data-transition="convex">
+    <h3>Align* (Unnumbered)</h3>
+    <pre><code class="language-latex">\begin{align*}
+    f(x) &= ax^2 + bx + c \\
+    g(x) &= dx^2 + ex + f
+\end{align*}</code></pre>
+</section>
+
+<section data-transition="convex">
+    <h3>Eqnarray</h3>
+    <pre><code class="language-latex">\begin{eqnarray}
+    f(x) &=& ax^2 + bx + c \\
+    g(x) &=& dx^2 + ex + f
+\end{eqnarray}</code></pre>
+</section>
+
+<section data-transition="convex">
+    <h3>Eqnarray* (Unnumbered)</h3>
+    <pre><code class="language-latex">\begin{eqnarray*}
+    f(x) &=& ax^2 + bx + c \\
+    g(x) &=& dx^2 + ex + f
+\end{eqnarray*}</code></pre>
+</section>
+
+</section>
+
+
+
+
+</section>
+
+<section data-transition="convex"> 
+  <section data-transition="convex"> 
+    <h3>Document Structure</h3>
+  </section>
+  <section data-transition="convex">
+  <h3>Document Structure Examples</h3>
+  <pre><code class="language-latex">
+\documentclass{report}
+
+\begin{document}
+
+\chapter{Introduction}
+This is the introduction chapter.
+
+\section{Section 1}
+This is the first section.
+
+\subsection{Subsection 1}
+This is the first subsection.
+
+\subsection{Subsection 2}
+This is the second subsection.
+
+\chapter{Main Body}
+This is the main body chapter.
+
+\section{Section 2}
+This is the second section.
+
+\subsection{Subsection 3}
+This is the third subsection.
+
+\subsection{Subsection 4}
+This is the fourth subsection.
+
+\end{document}              
+  </code></pre>
+</section>
+<section data-transition="convex">
+  <h3>Table of Contents</h3>
+  <pre><code class="language-latex">
+\documentclass{report}
+
+\begin{document}
+
+\tableofcontents
+
+\chapter{Introduction}
+This is the introduction chapter.
+
+\section{Section 1}
+This is the first section.
+
+\subsection{Subsection 1}
+This is the first subsection.
+
+\subsection{Subsection 2}
+This is the second subsection.
+
+\chapter{Main Body}
+This is the main body chapter.
+
+\section{Section 2}
+This is the second section.
+
+\subsection{Subsection 3}
+This is the third subsection.
+
+\subsection{Subsection 4}
+This is the fourth subsection.
+
+\end{document}              
+  </code></pre>
+</section>
+
+
+</section>
+
+<section data-transition="convex">
+<section data-transition="convex">
+ <h3>Including Figures</h3>
+</section>
+<section data-transition="convex">
+  <h3>Including Figures</h3>
+  <pre><code class="language-latex">
+\documentclass{article}
+\usepackage{graphicx}
+
+\begin{document}
+
+\begin{figure}
+  \centering
+  \includegraphics[width=0.5\textwidth]{example-image.jpg}
+  \caption{Example Figure}
+  \label{fig:example}
+\end{figure}
+
+\end{document}              
+  </code></pre>
+</section>
+<section data-transition="convex">
+  <h3>List of Figures</h3>
+  <pre><code class="language-latex">
+\documentclass{article}
+\usepackage{graphicx}
+
+\begin{document}
+
+\listoffigures
+
+\begin{figure}[htb]
+  \centering
+  \includegraphics[width=0.5\textwidth]{example-image.jpg}
+  \caption{Example Figure}
+  \label{fig:example}
+\end{figure}
+
+\end{document}              
+  </code></pre>
+</section>
+
+</section>
+<section data-transition="convex">
+  <section data-transition="convex">
+    <h3>Including Tables in LaTeX</h3> 
+  </section> 
+  <section data-transition="convex">
+    <h3>Including Tables in LaTeX</h3>
+    <pre><code class="language-latex">
+\begin{table}
+    \centering
+    \begin{tabular}{|c|c|c|}
+        \hline
+        \textbf{Column 1} & \textbf{Column 2} & \textbf{Column 3} \\
+        \hline
+        1 & A & X \\
+        2 & B & Y \\
+        3 & C & Z \\
+        \hline
+    \end{tabular}
+    \caption{Example Table}
+    \label{tab:example}
+\end{table}
+    </code></pre>
+</section>
+<section data-transition="convex">
+  <h3>List of Tables</h3>
+  <p>To generate a list of tables in LaTeX</p>
+  <ol>
+      <li>Use the <code>\listoftables</code> command.</li>
+      <li>LaTeX will automatically generate the list based on the tables included in the document.</li>
+  </ol>
+  <p>Example:</p>
+  <pre><code class="language-latex">
+\listoftables
+  </code></pre>
+</section>
+</section>
+
+<section data-transition="convex">
+  <section>
+     <h3>Bibliography in LaTeX</h3>
+ </section> 
+  <section data-transition="convex">
+    <h3>Bibliography in LaTeX</h3>
+    <p>To include a bibliography in LaTeX:</p>
+    <ol>
+      <li>Prepare a BibTeX file (.bib) with your references.</li>
+      <li>Insert citations in your document using <code>\cite</code>.</li>
+      <li>Specify the BibTeX file and citation style with <code>\bibliography</code> and <code>\bibliographystyle</code>.</li>
+    </ol>
+  </section> 
+  <section data-transition="convex">
+    <p>Bibliography in LaTeX</p>
+    <pre><code class="language-latex">
+% In your LaTeX document:
+\documentclass{article}
+
+\begin{document}
+
+Some text \cite{example}.
+
+\bibliographystyle{plain}
+\bibliography{references}
+
+\end{document}
+
+% In references.bib (BibTeX file):
+@article{example,
+  author = {Author, A.},
+  title = {Title of the Article},
+  journal = {Journal Name},
+  year = {2022},
+  volume = {1},
+  pages = {1--10}
+}
+    </code></pre>
+</section>
+
+</section>
+<section data-transition="convex">
+  <section data-transition="convex">
+    <h3>Introduction to Beamer</h3>
+    <p>Beamer is a LaTeX document class used for creating presentations.</p>
+</section>
+
+<section data-transition="convex">
+    <h3>Features of Beamer</h3>
+    <ul>
+        <li>Professional-quality presentations</li>
+        <li>Support for overlays and animations</li>
+        <li>Easy integration with LaTeX</li>
+        <li>Customizable themes and styles</li>
+    </ul>
+</section>
+</section>
+
+<section data-transition="convex">
+  <section data-transition="convex">
+    <h3>Basic Structure of Beamer Document</h3>
+  </section> 
+  <!-- Slide 2: LaTeX Code -->
+  <section data-transition="convex">
+    <h3>Basic Structure of Beamer Document</h3>
+    <pre><code class="language-latex">
+\documentclass{beamer} 
+
+
+\begin{document}
+
+\begin{frame}
+  % Frame content goes here
+\end{frame}
+
+\end{document}
+    </code></pre>
+  </section>
+</section>
+<section data-transition="convex">
+  <section data-transition="convex">
+    <h3>Title & Content</h3>
+  </section>
+  <section data-transition="convex">
+    <h4>Title Page</h4>
+    <pre><code class="language-latex">
+\documentclass{beamer} 
+
+\title{Presentation Title}
+\author{Author Name}
+\date{\today}
+
+\begin{document}
+
+\begin{frame}{Title Page}
+  \titlepage
+\end{frame}
+
+\end{document}
+    </code></pre>
+  </section>
+    
+  <section data-transition="convex">
+    <h4>Content Page</h4>
+    <pre><code class="language-latex">
+  \documentclass{beamer} 
+  
+  \title{Presentation Title}
+  \author{Author Name}
+  \date{\today}
+  
+  \begin{document}
+  
+  \begin{frame}{Outline}
+    \tableofcontents
+  \end{frame}
+  
+  \section{Introduction}
+  \begin{frame}{Introduction}
+    % Content of introduction frame
+  \end{frame}
+  
+  \section{Main Content}
+  \begin{frame}{Main Content}
+    % Content of main content frame
+  \end{frame}
+  
+  \section{Conclusion}
+  \begin{frame}{Conclusion}
+    % Content of conclusion frame
+  \end{frame}
+  
+  \end{document}
+    </code></pre>
+  </section>
+  
+  
+</section>
+<section data-transition="convex">
+  <section data-transition="convex">
+    <h3>Theme</h3>
+  </section>
+  <section data-transition="convex">
+    <h4>Theme: Warsaw</h4>
+    <pre><code class="language-latex">
+  \documentclass{beamer} 
+  
+  \usetheme{Warsaw}
+  
+  \title{Presentation Title}
+  \author{Author Name}
+  \date{\today}
+  
+  \begin{document}
+  
+  \begin{frame}{Title Page}
+    \titlepage
+  \end{frame}
+  
+  \end{document}
+    </code></pre>
+  </section>
+  
+  <section data-transition="convex">
+    <h4>Theme: CambridgeUS</h4>
+    <pre><code class="language-latex">
+  \documentclass{beamer} 
+  
+  \usetheme{CambridgeUS}
+  
+  \title{Presentation Title}
+  \author{Author Name}
+  \date{\today}
+  
+  \begin{document}
+  
+  \begin{frame}{Title Page}
+    \titlepage
+  \end{frame}
+  
+  \end{document}
+    </code></pre>
+  </section>
+  
+  <section data-transition="convex">
+    <h4>Theme: AnnArbor</h4>
+    <pre><code class="language-latex">
+  \documentclass{beamer} 
+  
+  \usetheme{AnnArbor}
+  
+  \title{Presentation Title}
+  \author{Author Name}
+  \date{\today}
+  
+  \begin{document}
+  
+  \begin{frame}{Title Page}
+    \titlepage
+  \end{frame}
+  
+  \end{document}
+    </code></pre>
+  </section>
+  
+  <section data-transition="convex">
+    <h4>Theme: Madrid</h4>
+    <pre><code class="language-latex">
+  \documentclass{beamer} 
+  
+  \usetheme{Madrid}
+  
+  \title{Presentation Title}
+  \author{Author Name}
+  \date{\today}
+  
+  \begin{document}
+  
+  \begin{frame}{Title Page}
+    \titlepage
+  \end{frame}
+  
+  \end{document}
+    </code></pre>
+  </section>
+  
+</section>
+
+
+
+    </div>
+
+
+  </div>
+
+  	
+	<script src="libs/reveal.js/4.1.3/reveal.js"></script>
+	<script src="libs/reveal.js/4.1.3/plugin/zoom/zoom.js"></script>
+	<script src="libs/reveal.js/4.1.3/plugin/notes/notes.js"></script>
+	<script src="libs/reveal.js/4.1.3/plugin/search/search.js"></script>
+	<script src="libs/reveal.js/4.1.3/plugin/markdown/markdown.js"></script>
+	<script src="libs/reveal.js/4.1.3/plugin/highlight/highlight.js"></script>
+	<script src="libs/reveal.js/4.1.3/plugin/menu/menu.js"></script>
+	<script src="libs/reveal.js/4.1.3/plugin/math/math.js"></script>
+
+	<script src="libs/reveal.js/4.1.3/plugin/fullscreen/plugin.js"></script>
+  
+  	<script src="libs/reveal.js/4.1.3/plugin/animate/plugin.js"></script>
+  	<script src="libs/reveal.js/4.1.3/plugin/animate/svg.min.js"></script>
+  
+  	<script src="libs/reveal.js/4.1.3/plugin/anything/plugin.js"></script>
+	  <script src="libs/reveal.js/4.1.3/plugin/anything/Chart.min.js"></script>
+	<script src="libs/reveal.js/4.1.3/plugin/anything/d3/d3.v3.min.js"></script>				
+	<script src="libs/reveal.js/4.1.3/plugin/anything/d3.patch.js"></script>			
+	<script src="libs/reveal.js/4.1.3/plugin/anything/d3/queue.v1.min.js"></script>		
+	<script src="libs/reveal.js/4.1.3/plugin/anything/d3/topojson.v1.min.js"></script>		
+	<script src="libs/reveal.js/4.1.3/plugin/anything/function-plot.js"></script>
+
+ <!--	<script src="libs/reveal.js/4.1.3/plugin/audio-slideshow/plugin.js"></script>  -->
+<!--	<script src="libs/reveal.js/4.1.3/plugin/audio-slideshow/recorder.js"></script>-->
+<!--	<script src="libs/reveal.js/4.1.3/plugin/audio-slideshow/RecordRTC.js"></script>-->
+
+<script src="libs/reveal.js/4.1.3/plugin/chalkboard/plugin.js"></script>
+	<script src="libs/reveal.js/4.1.3/plugin/customcontrols/plugin.js"></script>
+	<script src="libs/reveal.js/4.1.3/plugin/embed-tweet/plugin.js"></script>
+
+	<script src="libs/reveal.js/4.1.3/plugin/chart/chart.min.js"></script>
+	<script src="libs/reveal.js/4.1.3/plugin/chart/plugin.js"></script>
+
+  <script>
+
+		const printPlugins = [
+			RevealNotes, 
+			RevealHighlight,
+			RevealMath,
+			RevealAnimate,
+			RevealChalkboard, 
+			RevealEmbedTweet,
+			RevealChart,
+		];
+
+		const plugins =  [...printPlugins,
+		RevealZoom, 
+		RevealSearch, 
+				RevealMarkdown, 
+				RevealMenu, 
+				RevealFullscreen,
+				RevealAnything,
+				//RevealAudioSlideshow,
+				//RevealAudioRecorder,
+				RevealCustomControls, 
+				// poll
+				// question
+				// seminar
+				 ]
+
+
+		// Also available as an ES module, see:
+		// https://revealjs.com/initialization/
+		Reveal.initialize({
+			controls: true,
+			controlsTutorial: true,
+			controlsLayout: 'bottom-right',
+			controlsBackArrows: 'faded',
+			progress: true,
+			slideNumber: false,
+			//#showSlideNumber "all" "print" "speaker"
+			hash: true,//#  hash: false,
+			//# respondToHashChanges: true,
+			//# history: false,
+			keyboard: true,
+			//#keyboardCondition: null,
+			overview: true,
+			center: true,
+			touch: true,
+			loop: false,
+			rtl: false,
+			//#navigationMode: 'default', linear grid
+			shuffle: false,
+			fragments: true,
+			fragmentInURL: false,
+			embedded: false,
+			help: true,
+			//#pause: true
+			showNotes: false,
+			autoPlayMedia: false, // TODO fix this to a nullable value
+			//#preloadIframes: null. true false
+			//#autoAnimate: true
+			//#autoAnimateMatcher: null,
+			//#autoAnimateEasing: 'ease',
+			//autoAnimateDuration: 1.0,
+			//#autoAnimateUnmatched: true
+			//#autoAnimateStyles: []
+			autoSlide: 0, // TODO fix this to a falseable value
+			autoSlideStoppable: true,
+			autoSlideMethod: '0',
+			defaultTiming: 120,
+			mouseWheel: false,
+			//#previewLinks: false
+			//#postMessage: true,  // TODO : this can cause issues with the vscode api ???
+			//#postMessageEvents: false,
+			//#focusBodyOnPageVisibilityChange: true,
+			transition: 'default',
+			transitionSpeed: 'default',
+			backgroundTransition: 'default',
+			//#pdfMaxPagesPerSlide: Number.POSITIVE_INFINITY,
+			//#pdfSeparateFragments: true,
+			//#pdfPageHeightOffset: -1,
+			viewDistance: 3,
+			//#mobileViewDistance: 2,
+			display: 'block',
+			//#hideInactiveCursor: true,
+			//#hideCursorTime: 5000
+
+			// Parallax Background
+			parallaxBackgroundImage: '',
+			parallaxBackgroundSize: '',
+			parallaxBackgroundHorizontal: 0,
+			parallaxBackgroundVertical: 0,
+			
+			//Presentation Size
+			width: 960,
+			height: 700,
+			margin: 0.04,
+			minScale: 0.2,
+			maxScale: 2,
+			disableLayout: false,
+
+			audio: {
+				prefix: 'audio/', 	// audio files are stored in the "audio" folder
+				suffix: '.ogg',		// audio files have the ".ogg" ending
+				textToSpeechURL: null,  // the URL to the text to speech converter
+				defaultNotes: false, 	// use slide notes as default for the text to speech converter
+				defaultText: false, 	// use slide text as default for the text to speech converter
+				advance: 0, 		// advance to next slide after given time in milliseconds after audio has played, use negative value to not advance
+				autoplay: false,	// automatically start slideshow
+				defaultDuration: 5,	// default duration in seconds if no audio is available
+				defaultAudios: true,	// try to play audios with names such as audio/1.2.ogg
+				playerOpacity: 0.05,	// opacity value of audio player if unfocused
+				playerStyle: 'position: fixed; bottom: 4px; left: 25%; width: 50%; height:75px; z-index: 33;', // style used for container of audio controls
+				startAtFragment: false, // when moving to a slide, start at the current fragment or at the start of the slide
+			},
+			
+			chalkboard: { // font-awesome.min.css must be available
+					//src: "chalkboard/chalkboard.json",
+					storage: "chalkboard-demo",
+				},
+			
+			customcontrols: {
+					controls: [
+      						{
+						  id: 'toggle-overview',
+						  title: 'Toggle overview (O)',
+						  icon: '<i class="fa fa-th"></i>',
+						  action: 'Reveal.toggleOverview();'
+						}
+						,
+						{ icon: '<i class="fa fa-pen-square"></i>',
+						  title: 'Toggle chalkboard (B)',
+						  action: 'RevealChalkboard.toggleChalkboard();'
+						},
+						{ icon: '<i class="fa fa-pen"></i>',
+						  title: 'Toggle notes canvas (C)',
+						  action: 'RevealChalkboard.toggleNotesCanvas();'
+						}
+				]
+			},
+			chart: {
+					defaults: { 
+						color: 'lightgray', // color of labels
+						scale: { 
+							beginAtZero: true, 
+							ticks: { stepSize: 1 },
+							grid: { color: "lightgray" } , // color of grid lines
+						},
+					},
+					line: { borderColor: [ "rgba(20,220,220,.8)" , "rgba(220,120,120,.8)", "rgba(20,120,220,.8)" ], "borderDash": [ [5,10], [0,0] ] }, 
+					bar: { backgroundColor: [ "rgba(20,220,220,.8)" , "rgba(220,120,120,.8)", "rgba(20,120,220,.8)" ]}, 
+					pie: { backgroundColor: [ ["rgba(0,0,0,.8)" , "rgba(220,20,20,.8)", "rgba(20,220,20,.8)", "rgba(220,220,20,.8)", "rgba(20,20,220,.8)"] ]},
+					radar: { borderColor: [ "rgba(20,220,220,.8)" , "rgba(220,120,120,.8)", "rgba(20,120,220,.8)" ]}, 
+			},
+			math: {
+				mathjax: 'https://cdn.jsdelivr.net/gh/mathjax/mathjax@2.7.8/MathJax.js',
+				config: 'TeX-AMS_HTML-full',
+				// pass other options into `MathJax.Hub.Config()`
+				TeX: { Macros: { RR: "{\\bf R}" } }
+				},
+				anything: [ 
+				{
+		className: "plot",
+		defaults: {width:500, height: 500, grid:true},
+		initialize: (function(container, options){ options.target = "#"+container.id; functionPlot(options) })
+	 },
+	 {
+		className: "chart",  
+		initialize: (function(container, options){ container.chart = new Chart(container.getContext("2d"), options);  })
+	 },
+	 {
+		className: "anything",
+		initialize: (function(container, options){ if (options && options.initialize) { options.initialize(container)} })
+	 },
+					],
+			// Learn about plugins: https://revealjs.com/plugins/
+			plugins: (window.location.search.match(/print-pdf/gi) ? printPlugins : plugins ) 
+		});
+			
+
+
+	    // Change chalkboard theme : 
+		function changeTheme(input) {
+			var config = {};
+			config.theme = input.value;
+			Reveal.getPlugin("RevealChalkboard").configure(config);
+			input.blur();
+		}
+
+		// // Handle the message inside the webview
+        // window.addEventListener('message', event => {
+
+        //     const message = event.data; // The JSON data our extension sent
+
+        //     switch (message.command) {
+        //         case 'refactor':
+        //             Reveal.toggleHelp();
+        //     }
+        // });
+
+		if (window.location.search.match(/print-pdf-now/gi)) {
+      		setTimeout(() => {
+				window.print();
+			  }, 2500);
+			
+    }
+		
+
+	</script>
+
+</body>
+
+</html>
