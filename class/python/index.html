@@ -778,6 +778,53 @@ del person["age"]
 print(person)
 </code></pre>
 					</section>
+					<section data-transition="convex">
+						<h3>Accessing Values</h3>	
+						<pre><code class="python">
+my_dict = {'name': 'Alice', 'age': 30}
+print(my_dict['name'])  # Output: 'Alice'							
+</code></pre>
+<h3>Adding or Modifying Entries</h3>	
+<pre><code class="python">
+my_dict['city'] = 'New York'  # Adding a new entry
+my_dict['age'] = 31  # Modifying an existing entry								
+</code></pre>	
+					</section>	
+					<section data-transition="convex">
+						<h3>Checking Membership</h3>
+						<p>You can check if a key exists in a dictionary using the in keyword.</p>	
+						<pre><code class="python">
+if 'name' in my_dict:
+	print("Found 'name' in dictionary")													
+</code></pre>
+<h3>Removing Entries</h3>	
+<p>del keyword or the pop() method.</p>
+<pre><code class="python">
+del my_dict['age']  # Removes the 'age' key and its value
+value = my_dict.pop('city')  # Removes 'city' key and returns its value									
+</code></pre>	
+					</section>		
+					<section data-transition="convex">
+						<h3>Iterating Over Keys and Values</h3>
+						<p>You can iterate over keys, values, or key-value pairs (items) in a dictionary.</p>	
+						<pre><code class="python">
+for key in my_dict:
+	print(key, my_dict[key])  # Prints each key and its corresponding value
+						
+for value in my_dict.values():
+	print(value)  # Prints each value in the dictionary
+						
+for key, value in my_dict.items():
+	print(key, value)  # Prints each key-value pair													
+</code></pre>	
+					</section>	
+					<section data-transition="convex">
+						<h3> keys(), values(),</h3>
+						<pre><code class="python">
+keys = my_dict.keys()  # Returns a view object of keys
+values = my_dict.values()  # Returns a view object of values																			
+</code></pre>	
+					</section>
 				</section>
 	
 				<!-- Slide 9: Functions, Modules, and Packages -->
