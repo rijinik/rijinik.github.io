@@ -600,18 +600,26 @@ print("Ends with 'World!':", my_string.endswith('World!'))
 					<section data-transition="convex">
 						<h3>Lists</h3>
 						<pre><code class="python">
-	# List operations and traversal
-	fruits = ["apple", "banana", "cherry"]
-	print(fruits[0])      # apple
-	for fruit in fruits:
-		print(fruit)
-	
-	fruits.append("orange")
-	print(fruits)         # ['apple', 'banana', 'cherry', 'orange']
-	
-	fruits.remove("banana")
-	print(fruits)         # ['apple', 'cherry', 'orange']
-	</code></pre>
+# List operations and traversal
+fruits = ["apple", "banana", "cherry"]
+print(fruits[0])  # Output: apple
+						
+for fruit in fruits:
+	print(fruit)
+# Output:
+# apple
+# banana
+# cherry
+							
+fruits.append("orange")
+print(fruits)  # Output: ['apple', 'banana', 'cherry', 'orange']
+							
+fruits.insert(1, "grape")  # Inserting "grape" at index 1
+print(fruits)  # Output: ['apple', 'grape', 'banana', 'cherry', 'orange']
+							
+fruits.remove("banana")
+print(fruits)  # Output: ['apple', 'grape', 'cherry', 'orange']
+</code></pre>
 					</section>
 					<section data-transition="convex">
 						<h3>List Slices and Membership</h3>
